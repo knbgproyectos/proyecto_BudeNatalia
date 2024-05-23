@@ -15,7 +15,7 @@ body{
   background-color: white;
  
 }
-/* --- LOGOS Y MENÚ ---*/
+/* ---------------- LOGOS Y MENÚ -----------------*/
 .menu-contenedor {
   width: auto;
   height: 100px;
@@ -32,14 +32,14 @@ body{
 
 .logolapapelera p {
   display: inline-block;
-  text-align: center ;
-  width:370px;
+  text-align: center;
+  width: 370px;
   margin: auto;
   padding: auto;
   font-family: "Dosis";
   font-style: italic;
   font-weight: bold;
-  color: #EB3238;
+  color: #eb3238;
 }
 .logotalista {
   width: 150px;
@@ -48,18 +48,16 @@ body{
   padding: 5px 5px 0px 60px;
 }
 
-
-
 .logotalista p {
   display: block;
-  text-align: center ;
+  text-align: center;
   width: 150px;
   margin-top: 5px;
   padding: 0;
   font-family: "Dosis";
   font-style: italic;
   font-weight: bold;
-  color: #EB3238;
+  color: #eb3238;
 }
 
 .logotienda {
@@ -70,27 +68,26 @@ body{
 }
 .logotienda p {
   display: block;
-  text-align: center ;
+  text-align: center;
   width: 150px;
   margin-top: 5px;
   padding: 0;
   font-family: "Dosis";
   font-style: italic;
   font-weight: bold;
-  color: #EB3238;
+  color: #eb3238;
 }
 
-/* --- MENÚ ----*/
+/* ---------------------------- MENÚ --------------------------*/
 .menu {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  width: 476px;
+  width: 539px;
   margin: 0;
   margin-right: 0;
-  background-color: #BF4953;
- 
- }
+  background-color: #bf4953;
+}
 
 .menu ol {
   list-style: none;
@@ -104,7 +101,7 @@ body{
 }
 
 .menu a {
- display: flex;
+  display: flex;
   text-decoration: none;
   color: #ffffff;
   padding: 10px;
@@ -112,13 +109,14 @@ body{
   font-weight: bold;
   font-stretch: semi-expanded;
   font-size: 20px;
-  }
+}
 
 .menu a:hover {
   color: white;
-  background-color: #F2949C;
+  background-color: #f2949c;
   border-radius: 10px;
 }
+
 
 
 /*---- imagen pantalla completa ---*/
@@ -137,28 +135,6 @@ body{
   width: 100%;
   height: 150%;
 }
-
-/* --- SECCiÓN SOBRE NOSOTROS --- */
-/*--- imagen sobre nosotros ---*/
-.image-empresa {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 50%;
-  background-color: none;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
- 
-}
-
-.image-empresa img {
-  width: 100%;
-   height: auto;
-   margin-bottom: 0;
-  }
-  
 
 /* ---- OPCIONES (Papeleria - Talista - Servicios) ----*/
 
@@ -199,36 +175,6 @@ body{
 }
 
 
-/* --- SOBRE NOSOTROS ---*/
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: auto;
-  margin: 0;
-  background-color: #BF4953;
-}
-
-.image-video {
-  width: 25%;
-  margin: 100px;
-  padding-left: 10px;
-}
-
-.nosotros {
-  width: 50%;
-  margin: 10px;
-  text-align: justify;
-  font-family: "Dosis";
-  font-size: 20px;
-  background-color: #BF4953;
-  padding: 10px;
-  color: white;
-}
-.nosotros ul li {
-list-style-type: disc;
-color: white;
-}
 
 /* ---- SECCIÓN CONTÁCTENOS ---- */
 
@@ -475,17 +421,82 @@ color: white;
   text-align: center;
 }
 
+/*------------------------------------------------------- PÁGINA EMPRESA - SOBRE NOSOTROS -------------------------------------------------------------------*/
+
+.image-containerEmpresa {
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  background-color: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(black, transparent);
+}
+
+.image-containerEmpresa img {
+  width: 100%;
+  height: 800px;
+}
+
+/* -------------------------------- SECCiÓN SOBRE NOSOTROS ----------------------------------- */
+/*--- imagen sobre nosotros ---*/
+.image-empresa {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-empresa img {
+  width: 100%;
+  height: auto;
+  margin-bottom: none;
+}
+
+/* ------------------------ SOBRE NOSOTROS -------------------------*/
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  margin: 0;
+  background-color: #bf4953;
+}
+
+.image-video {
+  width: 25%;
+  margin: 100px;
+  padding-left: 10px;
+}
+
+.nosotros {
+  width: 50%;
+  margin: 10px;
+  text-align: justify;
+  font-family: "Dosis";
+  font-size: 20px;
+  background-color: #bf4953;
+  padding: 10px;
+  color: white;
+}
+.nosotros ul li {
+  list-style-type: disc;
+  color: white;
+}
 
 
-/* ----- PÁGINA CONTACTO -----*/
-.imageContact{
+/* ----------------------------------------------------------------- PÁGINA CONTACTO ------------------------------------------------------------------------*/
+.imageContact {
   background-image: url(./../imagenes/Contactenos.png);
   background-size: 100%;
   background-repeat: no-repeat, repeat;
   width: 100%;
-  height: auto; 
-  
-
+  height: auto;
 }
 .titleContact {
   width: 100%;
@@ -495,16 +506,15 @@ color: white;
   justify-content: space-evenly;
   align-content: center;
   padding-top: 20%;
-  }
+}
 .titleContact p {
   width: auto;
   height: 5%;
-  background-color: #BF4953;
+  background-color: #bf4953;
   font-family: "Dosis";
   font-size: 40px;
   font-weight: bold;
   padding: 5%;
   border-radius: 20%;
   color: #ffffff;
-
 }
