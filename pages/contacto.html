@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./../assets/logos/icono web.jpg"
+      type="image/x-icon"
+    />
+    <title>Contacto - LA PAPELERA - Todo en papelería.</title>
+    <link
+      rel="stylesheet"
+      href="./../assets/styles/styles.css"
+      font-family="Dosis"
+    />
+  </head>
+
+<body>
+  <header class="header">
+    <div class="menu-contenedor">
+      <!-- LOGO LA PAPELERA -->
+      <div class="logolapapelera">
+        <a href="./../index.html">
+          <img
+            src="./../assets/logos/logo web la papelera 95.webp"
+            alt="logolapapelera"
+            width="350"
+            height="60"
+          />
+        </a>
+        <p>Desde 1929 todo en papelería</p>
+      </div>
+
+      <!-- LOGO TALISTA -->
+      <div class="logotalista">
+        <a href="./../pages/talista.html">
+          <img
+            src="./../assets/logos/logo web talista.jpg"
+            alt="logotalista"
+            width="150"
+            height="50"
+          />
+        </a>
+        <p>La vuelta a clases fácil</p>
+      </div>
+
+      <div class="logotienda">
+        <a href="./../pages/papeleria.html">
+          <img
+            src="./../assets/logos/tienda.png"
+            alt="logotalista"
+            width="150"
+            height="50"
+          />
+        </a>
+        <p>Nuestra Tienda</p>
+      </div>
+      <!-- MENÚ -->
+      <nav class="menu">
+        <ol>
+          <li><a href="./../#sobreNosotros">Empresa</a></li>
+          <li><a href="./../pages/papeleria.html">Papeleria</a></li>
+          <li><a href="./../pages/talista.html">Talista</a></li>
+          <li><a href="./../pages/servicios.html">Servicios</a></li>
+          <li><a href="./../pages/contacto.html">Contacto</a></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+<section class="imageContact" width="110%" height="700px";>
+  <div class="titleContact" ><p>CONTÁCTENOS</p></div>
+ </section>
+
+<!-- SECCIÓN CONTÁCTENOS -->
+<section class="contactenos">
+  <h1>CONTÁCTENOS</h1>
+  <p>
+    Puede contactarnos directamente desde el siguiente formulario y a la
+    brevedad responderemos su consulta.
+  </p>
+  <div class="contactBox">
+    <div class="formBox">
+      <form class="nombreBox">
+        <label for="userName">Nombre Completo</label>
+        <input
+          type="text"
+          id="userName"
+          name="fileUserName"
+          placeholder="Nombre y Apellido"
+          required
+        />
+      </form>
+
+      <form class="contactoBox">
+        <label for="contacto">Contacto</label>
+        <input
+          type="tel"
+          id="userTelephone"
+          placeholder="Teléfono o Celular"
+          required
+        />
+      </form>
+      <form class="emailBox">
+        <label for="email">Correo electrónico</label>
+        <input
+          type="email"
+          id="userEmail"
+          placeholder="example@domain.com"
+          required
+        />
+      </form>
+
+      <form class="opcionBox">
+        <label for="userOption">Motivo de su consuta</label>
+        <select name="fileuserOption" id="userOption">
+          <option value="PA">Papelería</option>
+          <option value="TL">Talista</option>
+          <option value="IM">Impresiones</option>
+          <option value="SERV">Servicios</option>
+          <option value="OC">Otras consultas</option>
+        </select>
+      </form>
+
+      <form class="descripcionBox">
+        <label for="userDescription">Escriba su consulta aquí...</label>
+        <textarea
+          name="userDescription"
+          id="fileuserDescription"
+          placeholder="Ecribe aquí..."
+        ></textarea>
+      </form>
+
+      <form class="botonesBox">
+        <input type="reset" id="limpiar" value="Limpiar" />
+        <input type="file" id="files" name="files" multiple />
+        <input type="submit" id="enviar" value="Enviar" />
+      </form>
+    </div>
+
+    <div class="infoBox">
+      <div class="iconoslist">
+        <img
+          src="./../assets/iconos/marcador-de-mapa.png"
+          alt="Ubicación"
+          width="24"
+          height="24px"
+        />
+
+        <img
+          src="./../assets/iconos/llamada-telefonica.png"
+          alt="telefono"
+          width="24"
+          height="24px"
+        />
+
+        <img
+          src="./../assets/iconos/mail.png"
+          alt="email"
+          width="24"
+          height="24px"
+        />
+
+        <img
+          src="./../assets/iconos/whatsapp.png"
+          alt="whatsapp"
+          width="24"
+          height="24px"
+        />
+      </div>
+
+      <div class="infoList">
+        <p>Av. Gral. Flores 2901, Montevideo, Uruguay</p>
+        <p>+598 2203 6183 / 2208 6318 / 2200 0882</p>
+        <p>lapapelera@lapapelera.com.uy</p>
+        <p>098 181 181</p>
+      </div>
+  </div>
+</section>
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.284551612346!2d-56.18054378814064!3d-34.874200272745334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f806daee1fec1%3A0xc57403889e00383b!2sAv.%20Gral.%20Flores%202901%2C%2011800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1713743461822!5m2!1ses-419!2suy"
+  width="100%"
+  height="450"
+  style="border: 0"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+
+
+
+
+  <footer class="piedepagina">
+    <!-- PIE DE PÁGINA -->
+       <div class="pieBox1">
+       <div class="linkInicio"><a href="./../index.html"> <img src="./../assets/logos/logo web la papelera 95.webp" alt="logolapapelera"></a>
+       </div>
+
+      <div class="columnaBox1">
+         <div class="iconosBox1">
+           <img
+             src="./../assets/iconos/marcador-de-mapa red.png"
+             alt="Ubicación"
+             width="16"
+             height="16px"
+           />
+           <img
+             src="./../assets/iconos/llamada-telefonica red.png"
+             alt="telefono"
+             width="16"
+             height="16px"
+           />
+           <img
+             src="./../assets/iconos/mail red.png"
+             alt="email"
+             width="16"
+             height="16px"
+           />
+         </div>
+
+         <div class="infoBox1">
+           <p>Av. Gral. Flores 2901 - Montevideo - Uruguay</p>
+           <p>+598 2203 6183 / 2208 6318 / 2200 0882</p>
+           <p>lapapelera@lapapelera.com.uy</p>
+         </div>
+       </div>
+     </div>
+     
+
+     <div class="pieBox2">
+       <div class="redesSociales">
+         <a href="https://www.facebook.com/lapapelerauy"><img src="./../assets/iconos/instagram red.png" alt="instagram" width="32" height="32px"></a>
+         <a href="https://www.instagram.com/lapapelerauy/"><img src="./../assets/iconos/facebook red.png" alt="facebook" width="32" height="32px"></a>
+         <a href="https://www.youtube.com/@LaPapeleraSrl"><img src="./../assets/iconos/youtube red.png" alt="youtube" width="32" height="32px"></a>
+       </div>
+     </div>
+
+     <div class="pieBox3">
+       <div class="listacontacto">
+         <a href="./../index.html">Inicio</a>
+         <a href="./../#sobreNosotros">Empresa</a>
+         <a href="./../pages/contacto.html">Contacto</a>
+     </div>
+   </div>
+
+     <div class="pieBox4">
+       <div class="listaopciones">
+         <a href="./../pages/papeleria.html">Papeleria</a>
+         <a href="./../pages/talista.html">Talista</a>
+         <a href="./../pages/servicios.html">Servicios</a>
+       </div>
+     </div>
+
+     
+   </footer>
+   <div class="derechos">
+     <p>© 2024 La Papelera S.R.L. Todos los derechos reservados.</p>
+   </div>
+</body>
+</html>

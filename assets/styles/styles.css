@@ -1,0 +1,510 @@
+body{
+  background-color: #F2F2F2;
+}
+@font-face { 
+  font-family: "Dosis"; 
+  src: url("./../fuente/Dosis/static/Dosis-Regular.ttf"); 
+} 
+
+
+/*---- HAEDER ----*/
+ .header {
+  display: block;
+  top: 0;
+  position: sticky;
+  background-color: white;
+ 
+}
+/* --- LOGOS Y MENÚ ---*/
+.menu-contenedor {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: none;
+}
+
+.logolapapelera {
+  width: 370px;
+  height: 100px;
+  margin-top: 5px;
+}
+
+.logolapapelera p {
+  display: inline-block;
+  text-align: center ;
+  width:370px;
+  margin: auto;
+  padding: auto;
+  font-family: "Dosis";
+  font-style: italic;
+  font-weight: bold;
+  color: #EB3238;
+}
+.logotalista {
+  width: 150px;
+  height: 50px;
+  margin-top: 5px;
+  padding: 5px 5px 0px 60px;
+}
+
+
+
+.logotalista p {
+  display: block;
+  text-align: center ;
+  width: 150px;
+  margin-top: 5px;
+  padding: 0;
+  font-family: "Dosis";
+  font-style: italic;
+  font-weight: bold;
+  color: #EB3238;
+}
+
+.logotienda {
+  width: 150px;
+  height: 50px;
+  margin-top: 5px;
+  padding: 5px 5px 0px 60px;
+}
+.logotienda p {
+  display: block;
+  text-align: center ;
+  width: 150px;
+  margin-top: 5px;
+  padding: 0;
+  font-family: "Dosis";
+  font-style: italic;
+  font-weight: bold;
+  color: #EB3238;
+}
+
+/* --- MENÚ ----*/
+.menu {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 476px;
+  margin: 0;
+  margin-right: 0;
+  background-color: #BF4953;
+ 
+ }
+
+.menu ol {
+  list-style: none;
+  margin: auto;
+  padding: auto;
+}
+
+.menu li {
+  display: inline-flex;
+  margin: 0;
+}
+
+.menu a {
+ display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Dosis";
+  font-weight: bold;
+  font-stretch: semi-expanded;
+  font-size: 20px;
+  }
+
+.menu a:hover {
+  color: white;
+  background-color: #F2949C;
+  border-radius: 10px;
+}
+
+
+/*---- imagen pantalla completa ---*/
+.image-container {
+  position: flex;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  background-color: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container img {
+  width: 100%;
+  height: 150%;
+}
+
+/* --- SECCiÓN SOBRE NOSOTROS --- */
+/*--- imagen sobre nosotros ---*/
+.image-empresa {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.image-empresa img {
+  width: 100%;
+   height: auto;
+   margin-bottom: 0;
+  }
+  
+
+/* ---- OPCIONES (Papeleria - Talista - Servicios) ----*/
+
+.opciones {
+  display: flex;
+  width: auto;
+  height: 700px;
+  margin  0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:none;
+}
+
+.opcion1, .opcion2, .opcion3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color:#BF4953;
+  width: 30%;
+  height: 50%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.opcion1, .opcion2, .opcion3, a {
+  text-decoration: none;
+  color:white;
+  font-family: "Dosis";
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 40px;
+  }
+
+.opciones a :hover{
+  background-color: #F2949C;
+}
+
+
+/* --- SOBRE NOSOTROS ---*/
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  margin: 0;
+  background-color: #BF4953;
+}
+
+.image-video {
+  width: 25%;
+  margin: 100px;
+  padding-left: 10px;
+}
+
+.nosotros {
+  width: 50%;
+  margin: 10px;
+  text-align: justify;
+  font-family: "Dosis";
+  font-size: 20px;
+  background-color: #BF4953;
+  padding: 10px;
+  color: white;
+}
+.nosotros ul li {
+list-style-type: disc;
+color: white;
+}
+
+/* ---- SECCIÓN CONTÁCTENOS ---- */
+
+.contactenos{
+  width: 100%;
+  height: 700px;
+  font-family: "Dosis";
+  padding-bottom: 1%;
+}
+
+.contactenos h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #BF4953;
+  text-align: center;
+}
+
+.contactenos p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 380px;
+}
+
+/* --- FORMULARIO DE CONTACTO ---*/
+.formBox{
+  width: 45%;
+  height: 130%;
+  border-radius: 40px;
+  padding: 2%;
+  margin: 1%;
+  background-color: #BF4953;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #ffffff;
+}
+#userName{
+  width: 100%;
+  height: 20px;
+  font-family: "Dosis";
+}
+#userTelephone{
+  width: 100%;
+  height: 20px;
+  font-family: "Dosis";
+}
+#userEmail{
+  width: 100%;;
+  height: 20px;
+  font-family: "Dosis";
+}
+#userOption{
+  width: 100%;
+  height: 26px;
+  font-family: "Dosis";
+}
+#fileuserDescription{
+  width: 100%;
+  height: 200px;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  display: block;
+  font-family: "Dosis";
+}
+.botonesBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Dosis";
+  }
+
+/* --- INFORMACIÓN DE CONTACTO ---*/
+.infoBox {
+  width: 45%;
+  height: 130%;
+  border-radius: 40px;
+  padding: 2%;
+  margin: 1%;
+  background-color: #BF4953;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: start;
+  color: #ffffff;
+}
+
+.iconoslist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0%;
+  align-items:center;
+}
+
+.infoList p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  padding-top: 18%;
+  font-family: "Dosis";
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+ /* --- FOOTER ---*/
+
+ .piedepagina{
+  width: auto;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: ;
+ }
+
+ .pieBox1 {
+  width: 25%;
+  height: 100%;
+  color: #EB3238;
+}
+
+.linkInicio {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.linkInicio img {
+  width: 230px;
+  height: 50px;
+  margin-top: 5px;
+ 
+  color: #EB3238;
+ 
+}
+
+.columnaBox1 {
+  width: auto;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+
+}
+.iconosBox1 {
+  width: 10%;
+  height: 80%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items:center;
+  background-color: none;
+}
+
+.infoBox1 p {
+  width: 100%;
+  height: auto;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Dosis";
+  font-size: 15px;
+  font-weight: bold;
+  background-color: none;
+}
+
+
+.pieBox2 {
+  width: 25%;
+  height: 100%;
+}
+.redesSociales {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 110px;
+}
+
+.pieBox3 {
+  width: 25%;
+  height: 100%;
+  color: #EB3238;
+  padding: 5px;
+  }
+  .listacontacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: left;
+    padding: 10% 10% 10% 35%;
+  }
+ .listacontacto a {
+  padding: 5%;
+  color: #EB3238; 
+  font-size: 20px;
+  font-weight: bold; 
+ }
+
+.pieBox4 {
+  width: 25%;
+  height: 100%;
+  color: #EB3238;
+  padding: 5px;
+}
+.listaopciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: left;
+  padding: 10% 10% 10% 35%;
+}
+.listaopciones a {
+  padding: 5%;
+  color: #EB3238; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  height: 30px;
+ 
+}
+.derechos p {
+  font-family: "Dosis";
+  font-size: 15px;
+  color: #EB3238;
+  text-align: center;
+}
+
+
+
+/* ----- PÁGINA CONTACTO -----*/
+.imageContact{
+  background-image: url(./../imagenes/Contactenos.png);
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: auto; 
+  
+
+}
+.titleContact {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 20%;
+  }
+.titleContact p {
+  width: auto;
+  height: 5%;
+  background-color: #BF4953;
+  font-family: "Dosis";
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5%;
+  border-radius: 20%;
+  color: #ffffff;
+
+}
