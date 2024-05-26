@@ -57,47 +57,6 @@ body{
   justify-content: space-around;
 }
 
-/* ---------------------------- MENÚ --------------------------*/
-a.menu {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 539px;
-  margin: 0;
-  margin-right: 0;
-  background-color: #bf4953;
-}
-
-.menu ol {
-  list-style: none;
-  margin: auto;
-  padding: auto;
-}
-
-.menu li {
-  display: inline-flex;
-  margin: 0;
-}
-
-.menu a {
-  display: flex;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 10px;
-  font-family: "Dosis";
-  font-weight: bold;
-  font-stretch: semi-expanded;
-  font-size: 20px;
-}
-
-.menu a:hover {
-  color: white;
-  background-color: #f2949c;
-  border-radius: 10px;
-}
-
-
-
 /*---- imagen pantalla completa ---*/
 .image-container {
   position: flex;
@@ -467,6 +426,166 @@ main {
   list-style-type: disc;
   color: white;
 }
+
+/* ------------------------------------------------------- PÁGINA TALISTA -------------------------------------------------------------------*/
+.imageTalista {
+  width: 100%;
+  height: 800px;
+}
+
+.talistaBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url(./../imagenes/talista.png);
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.titleTalista {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 20%;
+}
+
+.titleTalista p {
+  width: auto;
+  height: 35%;
+  background-color: #bf4953;
+  font-family: "Dosis";
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5%;
+  border-radius: 20%;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.subTitleTalista {
+  width: 100%;
+  height: 30%;
+  background-color: #bf4953;
+}
+.subTitleTalista h2 {
+  width: 100%;
+  height: 20%;
+  color: #ffffff;
+  font-family: "Dosis";
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: none;
+}
+
+.textTalista {
+  width: auto;
+  height: 400px;
+  background-color: #bf4953;
+  border-radius: 20px;
+  margin: 20px 50px 20px 50px;
+  padding: 40px 40px 20px 40px;
+}
+.textTalista p {
+  color: #ffffff;
+  font-family: "Dosis";
+  font-size: 20px;
+  text-align: justify;
+}
+
+.textTalista a {
+  color: #ffffff;
+  font-family: "Dosis";
+  font-size: 20px;
+  text-align: justify;
+}
+
+.grid-containerTalista {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: none;
+  grid-template-areas:
+    "imageLista lista"
+    "imageCotizar cotizar"
+    "imageConfirmar confirmar"
+    "imageRetirar retirar";
+
+  grid-template-columns: 25% auto;
+  grid-template-rows: 24% 24% 24% 24%;
+
+  column-gap: 15px;
+  row-gap: 15px;
+
+  justify-content: center;
+  align-content: space-evenly;
+
+  justify-items: stretch;
+  align-items: stretch;
+
+  background-image: url(./../imagenes/talista.png);
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  width: 94%;
+  height: auto;
+}
+
+.imageLista,
+.imageCotizar,
+.imageConfirmar,
+.imageRetirar {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.lista,
+.cotizar,
+.confirmar,
+.retirar {
+  background-color: #bf4953;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lista h3,
+.cotizar h3,
+.confirmar h3,
+.retirar h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Dosis";
+}
+
+.lista p,
+.cotizar p,
+.confirmar p,
+.retirar p {
+  font-family: "Dosis";
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}
+
 
 
 /* ----------------------------------------------------------------- PÁGINA CONTACTO ------------------------------------------------------------------------*/
