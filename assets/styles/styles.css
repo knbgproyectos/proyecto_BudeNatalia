@@ -6,7 +6,6 @@ body{
   src: url("./../fuente/Dosis/static/Dosis-Regular.ttf"); 
 } 
 
-
 /*---- HAEDER ----*/
  .header {
   display: block;
@@ -56,46 +55,6 @@ body{
 #navbarColor01 {
   justify-content: space-around;
 }
-
-/* ---------------------------- MENÚ --------------------------*/
-a.menu {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 539px;
-  margin: 0;
-  margin-right: 0;
-  background-color: #bf4953;
-}
-
-.menu ol {
-  list-style: none;
-  margin: auto;
-  padding: auto;
-}
-
-.menu li {
-  display: inline-flex;
-  margin: 0;
-}
-
-.menu a {
-  display: flex;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 10px;
-  font-family: "Dosis";
-  font-weight: bold;
-  font-stretch: semi-expanded;
-  font-size: 20px;
-}
-
-.menu a:hover {
-  color: white;
-  background-color: #f2949c;
-  border-radius: 10px;
-}
-
 
 
 /*---- imagen pantalla completa ---*/
