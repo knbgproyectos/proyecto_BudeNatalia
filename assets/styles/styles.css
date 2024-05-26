@@ -6,7 +6,6 @@ body{
   src: url("./../fuente/Dosis/static/Dosis-Regular.ttf"); 
 } 
 
-
 /*---- HAEDER ----*/
  .header {
   display: block;
@@ -56,6 +55,7 @@ body{
 #navbarColor01 {
   justify-content: space-around;
 }
+
 
 /*---- imagen pantalla completa ---*/
 .image-container {
