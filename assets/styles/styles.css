@@ -11,75 +11,54 @@ body{
  .header {
   display: block;
   top: 0;
-  position: sticky;
-  background-color: white;
+  position: sticky; 
+}
+/* ------------------------------- MENÚ ----------------------------*/
+.container-fluid { 
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-color: #bf4953;
+}
+.navbar {
+  background-color: #bf4953;
+}
+.navbar-nav {
  
+ margin-left: 2%;
 }
-/* ---------------- LOGOS Y MENÚ -----------------*/
-.menu-contenedor {
-  width: auto;
-  height: 100px;
+.me-auto {
+  margin-right: 2% !important;
+}
+.nav-link {
+  color: #ffffff;
+}
+.logo1 {
+  width: 250px; 
+  height: 40px; 
+  margin-left: 3%;   
+}
+.logo2 {
+  width: 50px; 
+  height: 40px;
+  border-radius: 10%;
+
+}
+.logo3 {
+  width: 50px; 
+  height: 40px;
+  border-radius: 10%;
+}
+.iconos {
   display: flex;
-  justify-content: space-between;
-  background-color: none;
+  margin-left: 4%;
 }
-
-.logolapapelera {
-  width: 370px;
-  height: 100px;
-  margin-top: 5px;
-}
-
-.logolapapelera p {
-  display: inline-block;
-  text-align: center;
-  width: 370px;
-  margin: auto;
-  padding: auto;
-  font-family: "Dosis";
-  font-style: italic;
-  font-weight: bold;
-  color: #eb3238;
-}
-.logotalista {
-  width: 150px;
-  height: 50px;
-  margin-top: 5px;
-  padding: 5px 5px 0px 60px;
-}
-
-.logotalista p {
-  display: block;
-  text-align: center;
-  width: 150px;
-  margin-top: 5px;
-  padding: 0;
-  font-family: "Dosis";
-  font-style: italic;
-  font-weight: bold;
-  color: #eb3238;
-}
-
-.logotienda {
-  width: 150px;
-  height: 50px;
-  margin-top: 5px;
-  padding: 5px 5px 0px 60px;
-}
-.logotienda p {
-  display: block;
-  text-align: center;
-  width: 150px;
-  margin-top: 5px;
-  padding: 0;
-  font-family: "Dosis";
-  font-style: italic;
-  font-weight: bold;
-  color: #eb3238;
+#navbarColor01 {
+  justify-content: space-around;
 }
 
 /* ---------------------------- MENÚ --------------------------*/
-.menu {
+a.menu {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
